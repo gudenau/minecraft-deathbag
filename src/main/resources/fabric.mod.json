@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "gud_deathbag",
+  "version": "${version}",
+
+  "name": "Death Bag",
+  "description": "You can make a bag with all your stuff in it after you die.",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/gud_deathbag/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gudenau.deathbag.DeathBag"
+    ]
+  },
+  "mixins": [
+    "gud_deathbag.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
